@@ -41,3 +41,5 @@ function countDown(ops) {
         }
     };
 }
+
+export default countDown;
