@@ -25,7 +25,9 @@ function arrayToTree(arr, ops) {
         }
     }
     if(s.length > 1) {
-        s.forEach(n => c.push(data[n]));
+        s.forEach(function(n) {
+            c.push(data[n]);
+        });
     } else {
         c = data[s[0]];
     }
