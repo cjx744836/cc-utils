@@ -8,5 +8,5 @@
 * hexToRgb hex转化为rgb返回Object, hexToRgb('#fff')|hexToRgb('#ffffff')
 * hsbToRgb hsb转化为rgb返回Object, hsbToRgb(9,9,9)
 * Tween 缓动函数对象, Tween.Linear...
-* arrayToTree 将扁平化树型数组转化嵌套型返回Ojbect|Array, arrayToTree(arr, ops), ops默认值{id: 'id', pid: 'pid'}
-* treeToArray 将嵌套树转化扁平数返回Array, treeToArray(tree, ops), ops默认值{children: 'children', keys: []}
+* arrayToTree 将扁平化树型数组转化嵌套型返回Ojbect|Array, arrayToTree(arr)
+* treeToArray 将嵌套树转化扁平数返回Array, treeToArray(tree, keys), keys节点上的字段值
