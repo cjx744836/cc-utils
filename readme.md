@@ -10,3 +10,4 @@
 * Tween 缓动函数对象, Tween.Linear...
 * arrayToTree 将扁平化树型数组转化嵌套型返回Ojbect|Array, arrayToTree(arr)
 * treeToArray 将嵌套树转化扁平数返回Array, treeToArray(tree, keys), keys节点上的字段值
+* copy 复制文本, copy(txt)

@@ -10,6 +10,7 @@ import hsbToRgb from './lib/hsbToRgb';
 import Tween from './lib/tween';
 import arrayToTree from './lib/arrayToTree';
 import treeToArray from './lib/treeToArray';
+import copy from './lib/copy';
 
 export {
     formatTime,
@@ -23,5 +24,6 @@ export {
     hsbToRgb,
     Tween,
     arrayToTree,
+    copy,
     treeToArray
 }
