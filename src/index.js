@@ -11,6 +11,7 @@ import Tween from './lib/tween';
 import arrayToTree from './lib/arrayToTree';
 import treeToArray from './lib/treeToArray';
 import copy from './lib/copy';
+import combination from './lib/combination';
 
 export {
     formatTime,
@@ -25,5 +26,6 @@ export {
     Tween,
     arrayToTree,
     copy,
-    treeToArray
+    treeToArray,
+    combination
 }
